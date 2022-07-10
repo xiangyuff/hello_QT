@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWidget</class>
+ <widget class="QWidget" name="mainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1380</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <widget class="welcome_Widget" name="page"/>
+   <widget class="to_do_widget" name="page_2"/>
+   <widget class="dataClassWidget" name="page_3"/>
+   <widget class="creditsWidget" name="page_4"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>to_do_widget</class>
+   <extends>QWidget</extends>
+   <header location="global">to_do_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>welcome_Widget</class>
+   <extends>QWidget</extends>
+   <header location="global">welcome_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>dataClassWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">dataclasswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>creditsWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">creditswidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>music/promote_music.wav</file>
+        <file>image/sky_image.jpg</file>
+        <file>image/sky_image_two.jpg</file>
+        <file>image/000.png</file>
+        <file>image/001.png</file>
+        <file>image/002.png</file>
+        <file>image/003.png</file>
+        <file>image/004.png</file>
+        <file>image/005.png</file>
+        <file>image/006.png</file>
+        <file>image/007.png</file>
+        <file>image/008.png</file>
+        <file>image/009.png</file>
+        <file>image/010.png</file>
+        <file>music/0.wav</file>
+        <file>music/1.wav</file>
+        <file>image/icon.ico</file>
+    </qresource>
+</RCC>
